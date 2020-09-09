@@ -1,16 +1,16 @@
 Task 1 :
-var names = new List<string> { "Manasa", "HimaSri", "Harshitha" };
+var names = new List<string> { "saikiran", "SAKETH", "sathvik" };
 foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
 }
 Output :
-Hello MANASA!
-Hello HIMASRI!
-Hello HARSHITHA!
+Hello SAIKIRAN!
+Hello SAKETH!
+Hello SATHVIK!
 
 Task 2 :
-var names = new List<string> { "Manasa", "Ana", "Felipe" };
+var names = new List<string> { "saikiran", "Ana", "Felipe" };
 foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
@@ -24,16 +24,16 @@ foreach (var name in names)
   Console.WriteLine($"Hello {name.ToUpper()}!");
 }
 Output :
-Hello MANASA!
+Hello SAIKIRAN!
 Hello ANA!
 Hello FELIPE!
 
-Hello MANASA!
+Hello SAIKIRAN!
 Hello FELIPE!
 Hello MARIA!
 Hello BILL!
 
-var names = new List<string> { "Manasa", "Ana", "Felipe" };
+var names = new List<string> { "saikiran", "Ana", "Felipe" };
 foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
@@ -50,20 +50,20 @@ Console.WriteLine($"My name is {names[0]}.");
 Console.WriteLine($"I've added {names[2]} and {names[3]} to the list.");
 Console.WriteLine($"The list has {names.Count} people in it");
 Output :
-Hello MANASA!
+Hello SAIKIRAN!
 Hello ANA!
 Hello FELIPE!
 
-Hello MANASA!
+Hello SAIKIRAN!
 Hello FELIPE!
 Hello MARIA!
 Hello BILL!
-My name is Manasa.
+My name is saikiran.
 I've added Maria and Bill to the list.
 The list has 4 people in it
 
 Task 3 :
-var names = new List<string> { "Manasa", "Ana", "Felipe" };
+var names = new List<string> { "saikiran", "Ana", "Felipe" };
 foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
@@ -91,15 +91,15 @@ foreach (var name in names)
   Console.WriteLine($"Hello {name.ToUpper()}!");
 }
 Output :
-Hello MANASA!
+Hello SAIKIRAN!
 Hello ANA!
 Hello FELIPE!
 
-Hello MANASA!
+Hello SAIKIRAN!
 Hello FELIPE!
 Hello MARIA!
 Hello BILL!
-My name is Manasa.
+My name is saikiran.
 I've added Maria and Bill to the list.
 The list has 4 people in it
 The name Felipe is at index 1
@@ -107,7 +107,7 @@ When an item is not found, IndexOf returns -1
 Hello BILL!
 Hello FELIPE!
 Hello MARIA!
-Hello MANASA!
+Hello SAIKIRAN!
 
 Task 4 :
 var fibonacciNumbers = new List<int> {1, 1};
